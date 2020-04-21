@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    android:padding="4dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/upcoming_imageId"
+            android:layout_width="0dp"
+            android:layout_height="195dp"
+            android:contentDescription="Movie Title"
+            android:scaleType="matrix"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.028"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/upcoming_titleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="Jurassic Park"
+            app:layout_constraintEnd_toEndOf="@+id/upcoming_imageId"
+            app:layout_constraintStart_toStartOf="@+id/upcoming_imageId"
+            app:layout_constraintTop_toBottomOf="@+id/upcoming_imageId"
+            android:layout_marginLeft="8dp" />
+
+        <TextView
+            android:id="@+id/upcoming_ratingId"
+            android:layout_width="41dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="12dp"
+            android:text=" "
+            app:layout_constraintEnd_toEndOf="@+id/upcoming_titleId"
+            app:layout_constraintHorizontal_bias="0.409"
+            app:layout_constraintStart_toStartOf="@+id/upcoming_titleId"
+            app:layout_constraintTop_toBottomOf="@+id/upcoming_titleId" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
