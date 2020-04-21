@@ -9,7 +9,7 @@ Run command :
 
   git clone https://github.com/komal-kss/Mounty_Assignment_movies.git
 
-Go to (MovieDb)[https://developers.themoviedb.org/3/movies/get-top-rated-movies] Website for more details.
+Go to [MovieDb](https://developers.themoviedb.org/3/movies/get-top-rated-movies) Website for more details.
 
 <img src="https://github.com/komal-kss/Mounty_Assignment_movies/blob/master/Images/m1.jpeg"
 alt="" width="250" height="450" />................................................<img src="https://github.com/komal-kss/Mounty_Assignment_movies/blob/master/Images/m2.jpeg"
