@@ -7,10 +7,21 @@
 
 Run command :
 
-  git clone https://github.com/komal-kss/Mounty_Assignment_movies.git
+      git clone https://github.com/komal-kss/Mounty_Assignment_movies.git
 
-Go to [MovieDb](https://developers.themoviedb.org/3/movies/get-top-rated-movies) Website for more details.
+## Go to [MovieDb](https://developers.themoviedb.org/3/movies/get-top-rated-movies) Website for more details.
 
+### Api End Points: 
+
+1. Top Rated Movies: 
+   
+       https://api.themoviedb.org/3/movie/top_rated?api_key=<<api_key>>&language=en-US&page=1
+   
+2. Upcoming Movies: 
+
+       https://api.themoviedb.org/3/movie/top_rated?api_key=<<api_key>>&language=en-US&page=1
+       
+      
 <img src="https://github.com/komal-kss/Mounty_Assignment_movies/blob/master/Images/m1.jpeg"
 alt="" width="250" height="450" />................................................<img src="https://github.com/komal-kss/Mounty_Assignment_movies/blob/master/Images/m2.jpeg"
 alt="" width="250" height="450" />
