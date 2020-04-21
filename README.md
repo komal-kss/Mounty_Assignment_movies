@@ -11,6 +11,8 @@ Run command :
 
 ## Go to [MovieDb](https://developers.themoviedb.org/3/movies/get-top-rated-movies) Website for more details.
 
+## Go to [Retrofit](https://square.github.io/retrofit/) Website to know ,how to handle https/http request.
+
 ### Api End Points: 
 
 1. Top Rated Movies: 
